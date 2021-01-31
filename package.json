@@ -1,0 +1,24 @@
+{
+  "name": "telegraf-dialog",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example": "nodemon -r dotenv/config --exec ts-node ./example/index.ts"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^14.14.22",
+    "dotenv": "^8.2.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.3",
+    "telegraf-session-redis": "latest"
+  },
+  "author": "Alexander Pokhodyun",
+  "license": "ISC"
+}
