@@ -3,9 +3,10 @@
   "version": "0.5.0",
   "description": "",
   "type": "module",
-  "main": "lib/index.ts",
+  "main": "build/lib/index.js",
   "scripts": {
-    "example": "nodemon -r dotenv/config --exec ts-node ./example/index.ts"
+    "example": "nodemon -r dotenv/config --exec ts-node ./example/index.ts",
+    "postinstall": "tsc --outDir ./build"
   },
   "dependencies": {
     "debug": "^4.3.1",
